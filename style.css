@@ -1,0 +1,256 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir,
+    "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial,
+    sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 1em;
+  font-weight: bold;
+}
+.mainNav h1 span {
+  color: white;
+  -webkit-text-stroke: 1px black;
+  -webkit-text-fill-color: white;
+  display: inline-block;
+  transform: scaleX(-1);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  font-size: 3.052rem;
+  letter-spacing: -0.15rem;
+  line-height: 1;
+}
+.categorylist {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
+  text-align: center;
+}
+.accessories {
+  background-image: url("images/accessoriesimg.jpg");
+  background-size: cover;
+  height: 11rem;
+}
+.apparel {
+  background-image: url("/images/apparelimg.jpg");
+  background-size: cover;
+  height: 11rem;
+}
+.footwear {
+  background-image: url("/images/footwearimg.jpg");
+  background-size: cover;
+  height: 11rem;
+}
+.freeitems {
+  background-image: url("/images/freeimg.jpg");
+  background-size: cover;
+  height: 11rem;
+}
+.personalCare {
+  background-image: url("/images/personalcareeimg.jpg");
+  background-size: cover;
+  height: 11rem;
+}
+.sportingGoods {
+  background-image: url("/images/sportinggoodsimg.jpg");
+  background-size: cover;
+  height: 11rem;
+}
+.productlistgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
+}
+.productlistgrid article {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10%;
+}
+.product button {
+  display: block;
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.5rem 1.25rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.product {
+  display: grid;
+  margin: 0;
+  padding: 0;
+}
+.product img {
+  grid-column: 1/-1;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.productbox {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+}
+label {
+  font-weight: bold;
+  display: flex;
+}
+dt {
+  font-weight: bold;
+}
+.size {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+}
+@media only screen and (min-width: 1024px) {
+  .categorylist {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(800px, 1fr));
+    align-items: center;
+    text-align: center;
+  }
+  .accessories {
+    background-image: url("images/accessoriesimg.jpg");
+    background-size: cover;
+    height: 100%;
+  }
+  .apparel {
+    background-image: url("/images/apparelimg.jpg");
+    background-size: cover;
+    height: 100%;
+  }
+  .footwear {
+    background-image: url("/images/footwearimg.jpg");
+    background-size: cover;
+    height: 100%;
+  }
+  .freeitems {
+    background-image: url("/images/freeimg.jpg");
+    background-size: cover;
+    height: 100%;
+  }
+  .personalCare {
+    background-image: url("/images/personalcareeimg.jpg");
+    background-size: cover;
+    height: 100%;
+  }
+  .sportingGoods {
+    background-image: url("/images/sportinggoodsimg.jpg");
+    background-size: cover;
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 1055px) {
+  .categorylist {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(1100px, 1fr));
+    align-items: center;
+    text-align: center;
+  }
+  .accessories {
+    background-image: url("images/accessoriesimg.jpg");
+    background-size: cover;
+    height: 100%;
+  }
+  .apparel {
+    background-image: url("/images/apparelimg.jpg");
+    background-size: cover;
+    height: 100%;
+  }
+  .footwear {
+    background-image: url("/images/footwearimg.jpg");
+    background-size: cover;
+    height: 100%;
+  }
+  .freeitems {
+    background-image: url("/images/freeimg.jpg");
+    background-size: cover;
+    height: 100%;
+  }
+  .personalCare {
+    background-image: url("/images/personalcareeimg.jpg");
+    background-size: cover;
+    height: 100%;
+  }
+  .sportingGoods {
+    background-image: url("/images/sportinggoodsimg.jpg");
+    background-size: cover;
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 616px) and (max-width: 1023.9px) {
+  .categorylist {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    align-items: center;
+    text-align: center;
+  }
+  .accessories {
+    background-image: url("images/accessoriesimg.jpg");
+    background-size: cover;
+    /* height: 100%; */
+    grid-row: 1;
+  }
+  .apparel {
+    background-image: url("/images/apparelimg.jpg");
+    background-size: cover;
+    /* height: 100%; */
+    grid-row: 2;
+  }
+  .footwear {
+    background-image: url("/images/footwearimg.jpg");
+    background-size: cover;
+    /* height: 100%; */
+    grid-row: 3;
+  }
+  .freeitems {
+    background-image: url("/images/freeimg.jpg");
+    background-size: cover;
+    /* height: 100%; */
+    grid-row: 4;
+  }
+  .personalCare {
+    background-image: url("/images/personalcareeimg.jpg");
+    background-size: cover;
+    /* height: 100%; */
+    grid-row: 5;
+  }
+  .sportingGoods {
+    background-image: url("/images/sportinggoodsimg.jpg");
+    background-size: cover;
+    /* height: 100%; */
+    grid-row: 6;
+  }
+}
+a:active,
+a:hover,
+a:visited,
+a:current {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
